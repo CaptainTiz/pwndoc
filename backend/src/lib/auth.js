@@ -1,5 +1,5 @@
 // Secret for JWT tokens creation (make it dynamic for production)
-var jwtSecret = "ASy4FVjsXNLQl09LbieroWsjO5UXjvX5";
+var jwtSecret = "${{ secrets.JWTSECRETO }}";
 exports.jwtSecret = jwtSecret;
 
 /*  ROLES LOGIC
